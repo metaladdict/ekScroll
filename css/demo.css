@@ -5,12 +5,16 @@
 /* CSS Document */
 /**** ekScroll variables ****/
 /* CSS Document */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
 .demoDiv {
   padding: 10px;
   border: 1px solid #000000;
 }
 .firstDiv {
-  width: 500px;
+  width: 560px;
   height: 200px;
 }
 /* CSS Document */
@@ -20,6 +24,9 @@
 .ekScrollable .ekScrollableConteneur {
   overflow: hidden;
   float: left;
+}
+.ekScrollable .ekScrollableConteneur .ekScrollableContenu {
+  padding-bottom: 13.333333333333334px;
 }
 .ekScrollable .ekScrollableConteneur .ekScrollableContenu p {
   margin: 0 0 15px 0;
